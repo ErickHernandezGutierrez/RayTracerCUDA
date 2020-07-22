@@ -1,0 +1,24 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  d:\documents\visual studio 2015\Projects\RayTracerCUDA\RayTracerCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin"  -I"D:\Documents\Visual Studio 2015\Dependences\glew-2.0.0\include" -I"D:\Documents\Visual Studio 2015\Dependences\glfw-3.2.1.bin.WIN32\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\main.cu.obj "d:\documents\visual studio 2015\Projects\RayTracerCUDA\RayTracerCUDA\main.cu" 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  main.cu
+d:\documents\visual studio 2015\projects\raytracercuda\raytracercuda\vector3.cuh(56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\documents\visual studio 2015\projects\raytracercuda\raytracercuda\vector3.cuh(67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\documents\visual studio 2015\projects\raytracercuda\raytracercuda\mat4x4.cuh(125): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\documents\visual studio 2015\projects\raytracercuda\raytracercuda\ray.cuh(30): warning C4305: 'argument': truncation from 'double' to 'const float'
+d:\documents\visual studio 2015\projects\raytracercuda\raytracercuda\ray.cuh(35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\documents\visual studio 2015\projects\raytracercuda\raytracercuda\ray.cuh(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:/documents/visual studio 2015/Projects/RayTracerCUDA/RayTracerCUDA/main.cu(118): warning C4305: '-=': truncation from 'double' to 'float'
+d:/documents/visual studio 2015/Projects/RayTracerCUDA/RayTracerCUDA/main.cu(123): warning C4305: '+=': truncation from 'double' to 'float'
+d:/documents/visual studio 2015/Projects/RayTracerCUDA/RayTracerCUDA/main.cu(127): warning C4305: '+=': truncation from 'double' to 'float'
+d:/documents/visual studio 2015/Projects/RayTracerCUDA/RayTracerCUDA/main.cu(131): warning C4305: '-=': truncation from 'double' to 'float'
+d:/documents/visual studio 2015/Projects/RayTracerCUDA/RayTracerCUDA/main.cu(510): warning C4305: 'argument': truncation from 'double' to 'float'
+d:/documents/visual studio 2015/Projects/RayTracerCUDA/RayTracerCUDA/main.cu(511): warning C4305: 'argument': truncation from 'double' to 'float'
+d:/documents/visual studio 2015/Projects/RayTracerCUDA/RayTracerCUDA/main.cu(512): warning C4305: 'argument': truncation from 'double' to 'float'
+  RayTracerCUDA.vcxproj -> D:\Documents\Visual Studio 2015\Projects\RayTracerCUDA\Debug\RayTracerCUDA.exe
+  RayTracerCUDA.vcxproj -> D:\Documents\Visual Studio 2015\Projects\RayTracerCUDA\Debug\RayTracerCUDA.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "D:\Documents\Visual Studio 2015\Projects\RayTracerCUDA\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.

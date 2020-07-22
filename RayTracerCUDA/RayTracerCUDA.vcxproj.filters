@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="main.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="drawtexture.frag" />
+    <None Include="drawtexture.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{fee0cd4f-1ca8-4166-9017-a2ccd6fce28a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="point3.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mat4x4.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="colour.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="light.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="material.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="interdata.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
